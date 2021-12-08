@@ -8,7 +8,7 @@ let sol = (n) => {
 
     for (let i = 2; i * i < x + 1; i++) {
         if (arr[i]) {
-            for (let j = i * i; j < x + 1; j += i) {
+            for (let j = i + i; j < x + 1; j += i) {
                 arr[j] = false;
             }
         }

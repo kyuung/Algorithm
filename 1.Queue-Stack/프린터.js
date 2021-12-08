@@ -6,7 +6,7 @@ function solution(priorities, location) {
         .fill(0)
         .fill('j', location, location + 1);
 
-    // 찾기
+    // 찾기 100*100*100 => 제한조건내
     while (true) {
         const ele = priorities.shift();
         const page = arr.shift();
