@@ -14,7 +14,8 @@ function solution(clothes) {
     // 종류 별 length를 담고 있는 배열
     newClothes.map((clothe)=>lengthOfKind.push(clothe.length-1))
     
-    // 
+    // 접근하려고 했던 방식은, 1종류만 입었을 때, 2종류만 입었을 때, 3종류만.. 하는 방법으로 늘려가며 세는 방법
+    console.log(newClothes, lengthOfKind)
 
 
 }
